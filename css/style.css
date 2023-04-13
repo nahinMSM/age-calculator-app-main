@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 94%);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    margin-top: 100px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 40px;
+    width: 460px;
+    border-radius: 10px 10px 30% 10px;
+}
+
+form {
+    display: flex;
+    text-align: left;
+}
+
+form .title {
+    font-weight: bold;
+    font-size: 10px;
+    margin-bottom: 5px;
+    color: hsl(0, 1%, 44%);
+}
+
+form div {
+    margin: 5px;
+}
+
+form input {
+    padding: 10px;
+    width: 90px;
+    font-size: 18px;
+    color: hsl(0, 1%, 44%);
+    font-weight: bold;
+    border: 2px solid hsl(0, 0%, 94%);
+    border-radius: 5px;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.error_DD,
+.error_MM,
+.error_YYYY {
+    margin-top: 5px;
+    font-size: 9px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: hsl(0, 100%, 67%);
+}
+
+.box-bt {
+    display: flex;
+    align-items: center;
+}
+
+.bt_confirm {
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 50%;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.bt_confirm:hover {
+    background-color: hsl(0, 0%, 8%);
+}
+
+.bt_confirm img {
+    width: 25px;
+}
+
+hr {
+    border: 1px solid hsl(0, 0%, 94%);
+    width: 100%;
+    height: 1px;
+}
+
+.right {
+    display: none;
+}
+
+h1 {
+    font-style: italic;
+    font-family: "verdana";
+    font-size: 55px;
+}
+
+h1 span {
+    color: hsl(259, 100%, 65%)
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 400px) {
+    main {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .right {
+        display: block;
+        padding-inline: 60px;
+    }
+
+    .left {
+        padding-inline: 60px;
+    }
+
+    .bt_confirm {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .box-form {
+        width: auto;
+    }
+}
