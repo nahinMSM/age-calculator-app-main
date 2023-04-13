@@ -6,7 +6,6 @@ Esta é uma solução para o [desafio do aplicativo de calculadora de idade no F
 
 - [Visão geral](#visão geral)
   - [O desafio](#o-desafio)
-  - [Links](#links)
 - [Meu processo](#meu-processo)
   - [Construído com](#construído com)
   - [O que aprendi](#o-que-aprendi)
@@ -31,12 +30,6 @@ Os usuários devem ser capazes de:
 - Veja o layout ideal para a interface, dependendo do tamanho da tela do dispositivo
 - Veja os estados de foco e foco para todos os elementos interativos na página
 - **Bônus**: veja os números de idade animados até o número final quando o formulário for enviado
-
-
-### Links
-
-- URL da solução: [Adicionar URL da solução aqui](https://your-solution-url.com)
-- URL do site ao vivo: [Adicione URL do site ao vivo aqui](https://your-live-site-url.com)
 
 ## Meu processo
 
