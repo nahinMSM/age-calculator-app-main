@@ -4,17 +4,15 @@ Esta é uma solução para o [desafio do aplicativo de calculadora de idade no F
 
 ## Índice
 
-- [Visão geral](#visão geral)
   - [O desafio](#o-desafio)
-- [Meu processo](#meu-processo)
-  - [Construído com](#construído com)
-  - [O que aprendi](#o-que-aprendi)
-- [Autor](#autor)
-- [Agradecimentos](#acknowledgments)
+  - [Construído com](#construído-com)
+  - [Meu processo](#meu-processo)
+  - [Autor](#autor)
+  - [Agradecimentos](#acknowledgments)
 
-**Observação: exclua esta observação e atualize o sumário com base nas seções que você mantém.**
+  ![](design/active-states.jpg)
+  ![](design/desktop-error-invalid.jpg)
 
-## Visão geral
 
 ### O desafio
 
@@ -31,7 +29,6 @@ Os usuários devem ser capazes de:
 - Veja os estados de foco e foco para todos os elementos interativos na página
 - **Bônus**: veja os números de idade animados até o número final quando o formulário for enviado
 
-## Meu processo
 
 ### Construído com
 
@@ -40,19 +37,17 @@ Os usuários devem ser capazes de:
 - Flexbox
 - Fluxo de trabalho móvel por último
 - JavaScript
-- [Node.js] 
 
-### O que eu aprendi
+### Meu processo
 
 Tive dificuldade em entender o cálculo, e procurei completar o desafio, o mais próximo do designer. Mesmo assim gostei muito de fazer, e vou continuar estudando e praticando os desafios do "Front End Mentor". 
 
 
 ## Autor
 
-- Website - [Nahin Moreira](https://github.com/nahinMSM/)
 - Frontend Mentor - [@nahinMSM](https://www.frontendmentor.io/profile/nahinMSM)
 
 
 ## Agradecimentos
 
-Agradecimentos a Plataforma "Front End Mentor" por ajudar aos desenvolvedores, a praticar e melhorar suas habilidades. 
+Agradecimentos a Plataforma "Front End Mentor" por ajudar aos desenvolvedores, a praticar e melhorar suas habilidades.
